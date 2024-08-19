@@ -1,0 +1,128 @@
+* {
+    font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #3a3a3a;
+}
+
+header {
+    box-shadow: 0px 9px 20px -1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    background-color: #f8f7f7;
+    align-items: center;
+    border-bottom: #3a3a3a;
+}
+
+body {
+    background-color: #f8f7f7;
+    ;
+}
+
+
+.text-area {
+    box-shadow: inset 0px 9px 20px -1px rgba(0,0,0,0.2);
+    border: 0;
+    font-size: 24px;
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    resize: none;
+}
+
+::placeholder {
+    font-size: large;
+
+}
+
+.informacion {
+    padding: 30px;
+}
+
+.mensaje {
+    box-shadow: inset 0px 9px 20px -1px rgba(0,0,0,0.2);
+    border: 0;
+    font-size: 24px;
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.botones {
+    margin: 20px;
+    font-weight: 200;
+}
+
+.btn-encriptar {
+    transition: all 0.3s ease;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #91a96d;
+    padding: 10px;
+    width: 80px;
+    outline-color: 0;
+
+}
+
+.btn-desencriptar {
+    transition: all 0.3s ease;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #91a96d;
+    padding: 10px;
+    width: auto;
+    outline-color: 0;
+
+}
+
+.btn-encriptar:hover {
+    transform: scale(1.2);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #91a96d;
+    padding: 10px;
+    width: 80px;
+    outline-color: 0;
+
+}
+
+.btn-desencriptar:hover {
+    transform: scale(1.2);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #91a96d;
+    padding: auto;
+    width: auto;
+    outline-color: 0;
+
+}
+
+.copiar {
+    margin: 20px;
+    transition: all 0.3s ease;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #bfd2a3;
+    padding: 10px;
+    width: auto;
+    outline-color: 0;
+}
+
+.copiar:hover {
+    transform: scale(1.1);
+
+}
+
+h3 {
+    color: #3a3a3a;
+}
